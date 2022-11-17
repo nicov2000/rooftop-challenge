@@ -1,0 +1,33 @@
+{
+  "name": "rooftop",
+  "jest": {
+    "verbose": true,
+    "testEnvironment": "jsdom",
+    "collectCoverage": true,
+    "collectCoverageFrom": [
+      "../src/js/**",
+      "../src/js/functions.js"
+    ],
+    "coverageThreshold": {
+      "global": {
+        "lines": 0
+      }
+    }
+  },
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/preset-env": "^7.18.10",
+    "jest-environment-jsdom": "^28.1.3"
+  }
+}
